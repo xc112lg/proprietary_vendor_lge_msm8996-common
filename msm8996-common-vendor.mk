@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/com.vzw.vzwapnlib.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/lge/msm8996-common/proprietary/system/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
-    vendor/lge/msm8996-common/proprietary/system/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
     vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.default.so \
     vendor/lge/msm8996-common/proprietary/system/lib/hw/lgkm.msm8996.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/lgkm.msm8996.so \
     vendor/lge/msm8996-common/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
@@ -533,7 +532,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     dpmserviceapp \
-    QtiTelephonyServicelibrary \
     VZWAVSLibrary \
     qcrilhook \
     qti-telephony-common \

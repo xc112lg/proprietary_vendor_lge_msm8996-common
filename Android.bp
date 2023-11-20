@@ -255,12 +255,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "QtiTelephonyServicelibrary",
-	owner: "lge",
-	jars: ["proprietary/system/framework/QtiTelephonyServicelibrary.jar"],
-}
-
-dex_import {
 	name: "VZWAVSLibrary",
 	owner: "lge",
 	jars: ["proprietary/system/framework/VZWAVSLibrary.jar"],
