@@ -172,6 +172,7 @@ android_app_import {
 	name: "VZWAPNLib",
 	owner: "lge",
 	apk: "proprietary/system/app/VZWAPNLib/VZWAPNLib.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -204,6 +205,7 @@ android_app_import {
 	name: "UnifiedSettingsApp",
 	owner: "lge",
 	apk: "proprietary/system/priv-app/UnifiedSettingsApp/UnifiedSettingsApp.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
